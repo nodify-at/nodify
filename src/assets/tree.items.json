@@ -1,0 +1,106 @@
+{
+    "label": "Nodify",
+    "amount": 125,
+    "color": "#15a4ce",
+    "id": "nodify",
+    "children": [
+        {
+            "label": "Web Design",
+            "color": "#438ae3",
+            "amount": 40,
+            "children": [
+                {
+                    "label": "CSS3",
+                    "amount": 35,
+                    "color": "#00a1dc"
+                },
+                {
+                    "label": "HTML 5",
+                    "amount": 45,
+                    "color": "#f43f1d"
+                },
+                {
+                    "label": "Javascript",
+                    "amount": 55,
+                    "color": "#9abc57"
+                }
+            ]
+        },
+        {
+            "label": "Mobile App Development",
+            "amount": 45,
+            "children": [
+                {
+                    "label": "Swift",
+                    "amount": 55,
+                    "color": "#ed4818"
+                },
+                {
+                    "label": "Objective-C",
+                    "amount": 35,
+                    "color": "#bf7dd8"
+                },
+                {
+                    "label": "iOS SDK",
+                    "amount": 40,
+                    "color": "#2e85ff"
+                },
+                {
+                    "label": "UI/UX Design",
+                    "amount": 45,
+                    "color": "#54c7be"
+                }
+            ],
+            "color": "#7ebe66"
+        },
+        {
+            "label": "Software Development",
+            "amount": 55,
+            "children": [
+                {
+                    "label": "Design",
+                    "amount": 40,
+                    "color": "#6896e3"
+                },
+                {
+                    "label": "Implementation",
+                    "amount": 45,
+                    "color": "#975fe3"
+                },
+                {
+                    "label": "Testing",
+                    "amount": 47,
+                    "color": "#e36bcb"
+                },
+                {
+                    "label": "Maintenance",
+                    "amount": 50,
+                    "color": "#e36c8d"
+                }
+            ],
+            "color": "#cf7554"
+        },
+        {
+            "label": "Analyse & Konzeption",
+            "amount": 35,
+            "children": [
+                {
+                    "label": "Analyse",
+                    "amount": 28,
+                    "color": "#6896e3"
+                },
+                {
+                    "label": "Konzeption",
+                    "amount": 25,
+                    "color": "#78d486"
+                },
+                {
+                    "label": "Umsetzung",
+                    "amount": 35,
+                    "color": "#af6ce3"
+                }
+            ],
+            "color": "#e35d9b"
+        }
+    ]
+}

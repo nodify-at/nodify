@@ -1,0 +1,13 @@
+@import "../../branding";
+
+#legacy {
+    font-size: 90%;
+
+    .company-name {
+        color: $blue;
+    }
+
+    small {
+        color: lightgray;
+    }
+}

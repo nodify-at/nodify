@@ -1,0 +1,22 @@
+[
+    {
+        "title": "ÖBB",
+        "image": "/assets/img/portfolio/oebb.jpg"
+    },
+    {
+        "title": "Braintribe",
+        "image": "/assets/img/braintribe.jpg"
+    },
+    {
+        "title": "Lean Coders",
+        "image": "/assets/img/lean-coders.jpg"
+    },
+    {
+        "title": "Advantage Apps",
+        "image": "/assets/img/advantage-apps.png"
+    },
+    {
+        "title": "Volksmarkt",
+        "image": "/assets/img/portfolio/volksmarkt.jpg"
+    }
+]

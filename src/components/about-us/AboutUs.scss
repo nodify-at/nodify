@@ -1,0 +1,28 @@
+@import "../../branding";
+
+#about-us {
+    background: white;
+    position: relative;
+
+    h5 {
+        font-family: $font-handy;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.2em 0;
+    }
+
+    .content {
+        margin-top: 1em;
+    }
+
+    .policy {
+        a {
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+    }
+
+    .accept-privacy {
+        margin-right: 0.4em;
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "title": "ÖBB - Ticketshop",
+        "subtitle": "Ticketshop Development",
+        "shortDescription": "Developing ÖBB's new platform ticketshop 2.0. Involved to develop diverse interfaces, APIs and application. <br /><a href='https://tickets.oebb.at/' target='_blank'> https://tickets.oebb.at/ </a>",
+        "images": [
+            "/assets/img/portfolio/oebb.jpg"
+        ],
+        "updated": "Updated 3 days ago"
+    },
+    {
+        "title": "Volksmarkt",
+        "subtitle": "Volksmarkt Development",
+        "shortDescription": "With the Volksmarkt App you can now do your shopping from home <br /> <a href='http://volksmarkt.at/' target='_blank'> http://www.volksmarkt.at/ </a>",
+        "images": [
+            "/assets/img/portfolio/volksmarkt.jpg"
+        ],
+        "updated": "Updated 5 days ago"
+    },
+    {
+        "title": "Datapedia - J6J",
+        "subtitle": "Datapedia Development",
+        "shortDescription": "A cloud solution for John & Johnson to manage the resources and shared applications. In the background is a perfect technology developed by <a href='http://www.braintribe.com' target='_blank'> Braintribe! </a>",
+        "images": [
+            "/assets/img/portfolio/datapedia.jpg"
+        ],
+        "updated": "Updated 20 days ago"
+    },
+    {
+        "title": "Neudenker",
+        "subtitle": "Neudenker Development",
+        "shortDescription": "<strong> New Thinker Agile Documents </ strong> focuses on the user and revolutionizes document handling: intuitive, flexible and efficient.",
+        "images": [
+            "/assets/img/portfolio/neudenker.jpg"
+        ],
+        "updated": "Updated 25 days ago"
+    },
+    {
+        "title": "HADI App",
+        "subtitle": "HADI Development",
+        "shortDescription": "Finding the right craftsman & service provider for your project has never been so easy: The <a href='https://www.hadiapp.at/' target='_blank'> HADI app </a> makes it happen! Easily search and find businesses in your area via your smartphone and contact them all at once, rather than contacting each one individually",
+        "images": [
+            "/assets/img/portfolio/hadi.jpg"
+        ],
+        "updated": "Updated 32 days ago"
+    },
+    {
+        "title": "Spect0r",
+        "subtitle": "Spect0r Development",
+        "shortDescription": "Turn your smartphone into a digital co-pilot Faster, safer, more relaxed - and all over Austria! With this app you get to your destination in record time. Spector turns your smartphone into a digital co-pilot: early traffic warning, simple operation - maximum driving pleasure! This clever assistance system comes directly from the cloud. Get your digital co-pilot for Austria! <br /> <a href='http://spector.at/' target='_blank'> http://spector.at/ </a>",
+        "images": [
+            "/assets/img/portfolio/spector.jpg"
+        ],
+        "updated": "Updated 34 days ago"
+    }
+]

@@ -1,0 +1,24 @@
+@import "../../branding";
+@import "../../mixins";
+
+#customers {
+    z-index: 1;
+    padding: 3em 0;
+
+    h5 {
+        font-family: $font-handy;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.2em 0;
+    }
+
+    p {
+        font-family: $font-handy;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .spacer {
+        margin-top: 1.2em;
+    }
+}

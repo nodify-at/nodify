@@ -1,0 +1,64 @@
+@import "../../branding";
+@import "../../mixins";
+
+#projects {
+    background: white;
+    position: relative;
+    padding-bottom: 1em;
+
+    h5 {
+        font-family: $font-handy;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.2em 0;
+    }
+
+    .card {
+        @include smooth();
+
+        cursor: pointer;
+
+        &:hover {
+            background: #fafafa;
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .card-body {
+            font-size: 16px;
+
+            a,
+            p,
+            h5,
+            h6 {
+                font-weight: 300;
+            }
+
+            a {
+                font-size: 0.95rem;
+            }
+
+            p {
+                padding-top: 0.75em;
+                font-weight: 300;
+            }
+
+            .card-title {
+                color: $blue;
+            }
+
+            .card-subtitle {
+                margin-top: 1em;
+            }
+        }
+
+        .card-footer {
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: right;
+        }
+    }
+
+    .spacer {
+        margin-top: 1.2em;
+    }
+}

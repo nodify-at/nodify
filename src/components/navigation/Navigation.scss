@@ -1,0 +1,73 @@
+@import "../../branding";
+@import "../../mixins";
+
+.navigation {
+    background: white;
+    color: $black;
+    box-shadow: 0 0 5px 2px rgb(212, 237, 245);
+
+    @include smooth();
+
+    &.on-top {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    a {
+        color: $black;
+        position: relative;
+        padding-left: 22px;
+        margin-right: 1em;
+
+        @include smooth();
+
+        &.active {
+            color: $blue;
+        }
+
+        svg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        &::after {
+            border-right: 1px dashed #a4a4a4;
+            display: block;
+            content: "";
+            height: 20px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+            &:hover {
+                border-color: $blue;
+            }
+        }
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    img {
+        width: 130px;
+        height: auto;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        flex: 1;
+    }
+}

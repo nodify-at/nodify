@@ -1,0 +1,37 @@
+@import "branding";
+@import "mixins";
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    font-family: $font;
+    overflow-x: hidden;
+}
+
+a {
+    color: $blue;
+}
+
+input.error {
+    border: 1px solid darkred;
+}
+
+.slick-slide {
+    text-align: center;
+
+    img {
+        width: auto !important;
+        height: 100px !important;
+        padding: 0.8em;
+    }
+}
+
+.shadow {
+    @include shadow();
+}
+
+.container-fluid {
+    padding: 0;
+}

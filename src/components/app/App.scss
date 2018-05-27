@@ -1,0 +1,23 @@
+@import "../../branding";
+
+.app {
+    padding: 4.5rem 2em 2em;
+
+    .react-cookie-banner {
+        font-family: $font;
+        font-size: 0.9rem;
+        font-weight: 300;
+        position: fixed !important;
+        bottom: 0;
+        padding: 0.5em;
+        height: auto !important;
+
+        .cookie-message {
+            line-height: 1.1 !important;
+            display: inline-block;
+            width: 75%;
+            font-weight: 300 !important;
+            word-wrap: break-word;
+        }
+    }
+}

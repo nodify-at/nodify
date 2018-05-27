@@ -1,0 +1,35 @@
+@import "../../branding";
+@import "../../mixins";
+
+#technologies {
+    background: white;
+    position: relative;
+    padding-bottom: 1em;
+
+    h5 {
+        font-family: $font-handy;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.2em 0;
+    }
+
+    .tree {
+        width: 100%;
+        display: block;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+
+        .bubbletree-label {
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 1.2rem;
+            font-family: $font-handy;
+
+            .bubbletree-amount {
+                display: none !important;
+            }
+        }
+    }
+}
