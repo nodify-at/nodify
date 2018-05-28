@@ -1,7 +1,8 @@
 import * as React                                              from 'react';
 import {Collapse, Navbar, NavbarBrand, NavbarToggler, NavLink} from 'reactstrap';
 import './Navigation.scss';
-import {mapDispatchToProps, mapStateToProps}                   from '../../decoratots/mappers';
+import {mapDispatchToProps}                                    from 'redux-mappers';
+import {mapStateToProps}                                       from 'redux-mappers';
 import {navigationAction}                                      from '../../store/actions/navigationAction';
 
 const scrollToElement = require('scroll-to-element');

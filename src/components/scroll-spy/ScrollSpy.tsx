@@ -1,7 +1,6 @@
 import * as React           from 'react';
-import {connect}            from 'react-redux';
 import Waypoint             from 'react-waypoint';
-import {mapDispatchToProps} from '../../decoratots/mappers';
+import {mapDispatchToProps} from 'redux-mappers';
 import {navigationAction}   from '../../store/actions/navigationAction';
 
 export interface ScrollSpyProps {

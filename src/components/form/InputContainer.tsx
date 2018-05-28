@@ -1,11 +1,12 @@
-import {ChangeEvent}                         from 'react';
-import * as React                            from 'react';
-import { AvField } from 'availity-reactstrap-validation';
-import {FormGroup, Label}             from 'reactstrap';
-import {InputType}                           from 'reactstrap/lib/Input';
-import {mapDispatchToProps, mapStateToProps} from '../../decoratots/mappers';
-import {FormChangeAction, formChangeAction}  from '../../store/actions/formChangeAction';
-import {ContactModel}                        from '../../store/types/ContactModel';
+import {ChangeEvent}                        from 'react';
+import * as React                           from 'react';
+import { AvField }                          from 'availity-reactstrap-validation';
+import {FormGroup, Label}                   from 'reactstrap';
+import {InputType}                          from 'reactstrap/lib/Input';
+import {mapDispatchToProps}                 from 'redux-mappers';
+import {mapStateToProps}                    from 'redux-mappers';
+import {FormChangeAction, formChangeAction} from '../../store/actions/formChangeAction';
+import {ContactModel}                       from '../../store/types/ContactModel';
 
 export interface InputContainerProps {
     name: string;
@@ -18,9 +19,7 @@ export interface InputContainerProps {
     formChangeAction?: (ContactModel) => FormChangeAction;
 }
 
-@mapStateToProps(state => ({
-    form: state.form || {}
-}))
+@mapStateToProps(state => ({ form: state.form || {} }))
 @mapDispatchToProps({ formChangeAction })
 export class InputContainer extends React.Component<InputContainerProps> {
 

@@ -1,10 +1,11 @@
-import * as React                            from 'react';
-import {Button, Col, Input, Row}             from 'reactstrap';
-import {mapDispatchToProps, mapStateToProps} from '../../decoratots/mappers';
-import {FormSendAction, formSendAction}      from '../../store/actions/formSendAction';
-import {ContactModel}                        from '../../store/types/ContactModel';
-import {InputContainer}                      from '../form/InputContainer';
-import { AvForm } from 'availity-reactstrap-validation';
+import * as React                       from 'react';
+import {Button, Col, Input, Row}        from 'reactstrap';
+import {mapDispatchToProps}             from 'redux-mappers';
+import {mapStateToProps}                from 'redux-mappers';
+import {FormSendAction, formSendAction} from '../../store/actions/formSendAction';
+import {ContactModel}                   from '../../store/types/ContactModel';
+import {InputContainer}                 from '../form/InputContainer';
+import {AvForm}                         from 'availity-reactstrap-validation';
 
 interface ContactState {
     accepted: boolean;
@@ -15,7 +16,7 @@ export interface ContactProps {
     formSendAction?: (ContactModel) => FormSendAction;
 }
 
-@mapDispatchToProps( { formSendAction })
+@mapDispatchToProps({formSendAction})
 @mapStateToProps(state => ({form: state.form || {}}))
 export class Contact extends React.Component<ContactProps> {
 
@@ -25,13 +26,14 @@ export class Contact extends React.Component<ContactProps> {
 
     private onPrivacy = event => {
         this.setState({accepted: event.target.checked});
-    };
+    }
 
     private onSend = event => {
         event.preventDefault();
         this.props.formSendAction(this.props.form);
 
     }
+
     private get disabled() {
         return !this.state.accepted || !this.props.form.name || !this.props.form.email || !this.props.form.message;
     }
@@ -39,8 +41,10 @@ export class Contact extends React.Component<ContactProps> {
     render(): React.ReactNode {
         return (
             <AvForm onValidSubmit={this.onSend}>
-                <InputContainer name="name" label="Your name*" type="text" placeholder="Your name" keyName="name" required={true}/>
-                <InputContainer name="e-mail" label="E-Mail*" type="email" placeholder="Your e-mail" keyName="email" required={true}/>
+                <InputContainer name="name" label="Your name*" type="text" placeholder="Your name" keyName="name"
+                                required={true}/>
+                <InputContainer name="e-mail" label="E-Mail*" type="email" placeholder="Your e-mail" keyName="email"
+                                required={true}/>
                 <InputContainer name="phone" label="Phone number" type="tel" placeholder="Your phone number"
                                 keyName="phone"/>
                 <InputContainer name="message" label="Your message*" type="textarea" placeholder="Your message"

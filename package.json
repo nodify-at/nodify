@@ -85,6 +85,7 @@
     "react-waypoint": "^8.0.1",
     "reactstrap": "^6.0.1",
     "redux-axios-middleware": "^4.0.0",
+    "redux-mappers": "^1.0.4",
     "scroll-to-element": "^2.0.0",
     "slick-carousel": "^1.8.1",
     "tween": "^0.9.0"
